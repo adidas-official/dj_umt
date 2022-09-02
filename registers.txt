@@ -1,0 +1,2 @@
+<QueryDict: {'csrfmiddlewaretoken': ['maYSQBJvOKLgG40DKeRr9m2mBKwFmWecyMzqMze0X6Fx3UkmCulQTEzyCvBYMPh8'], 'username': ['tester'], 'email': ['test@email.cz'], 'password1': ['thisissick'], 'password2': ['thisissick'], 'code': ['0abc0abc0abc0abc0abc0abc0abc0abc']}>
+<QueryDict: {'csrfmiddlewaretoken': ['yEM4hU7kJP1HWSz1sUIv1OTmGn3etxbXBk9D9ffqDnbb8OEYeMBltOCi9TnZb5lO'], 'username': ['tester2'], 'email': ['ihaveemail@test.com'], 'password1': ['2cool4school'], 'password2': ['2cool4school'], 'code': ['0abc0abc0abc0abc0abc0abc0abc0abc']}>
