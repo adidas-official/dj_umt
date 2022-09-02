@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
 {% block title %}Sign Up{% endblock %}
-{% load crispy_forms_tags %}
+{% load widget_tweaks %}
 
 {% block content %}
 <form method="post">
   {% csrf_token %}
-  {{form|crispy}}
+  {{form.username|add_class:'class_one class_two'}}
+  {{form.password1|add_class:'class_one'}}
+  {{form.password2|add_class:'class_one'}}
+  {{form.email|add_class:'class_one'}}
+  {{form.code|add_class:'class_one'}}
   <p>Don't have an account? Create one <a href="/login">Here</a>!</p>
   <button type="submit" class="btn btn-success">Register</button>
 </form>

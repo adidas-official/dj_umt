@@ -11,9 +11,3 @@ class RegisterForm(UserCreationForm):
         model = User
         fields = ['username', 'email', 'password1', 'password2', 'code']
 
-
-class LoginForm(AuthenticationForm):
-
-    class Meta:
-        model = User
-
